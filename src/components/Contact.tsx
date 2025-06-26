@@ -207,18 +207,6 @@ const Contact = () => {
           </form>
         </div>
 
-        {/* Setup Instructions */}
-        <div className="mt-16 text-center">
-          <div className="bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-500/30 rounded-lg p-6 max-w-2xl mx-auto">
-            <h4 className="text-lg font-bold text-yellow-700 dark:text-yellow-300 mb-2">EmailJS Setup Required</h4>
-            <p className="text-sm text-yellow-600 dark:text-yellow-200">
-              To enable email functionality, please:
-              <br />1. Create an account at <a href="https://emailjs.com" target="_blank" rel="noopener noreferrer" className="underline font-bold">EmailJS.com</a>
-              <br />2. Replace the service ID, template ID, and public key in the code
-              <br />3. Configure your email template with variables: user_name, user_email, subject, message
-            </p>
-          </div>
-        </div>
       </div>
     </section>
   );
