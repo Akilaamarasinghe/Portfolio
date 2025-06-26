@@ -1,5 +1,5 @@
 import React from 'react';
-import { ThemeProvider } from './components/ThemeContext'; // Adjust the path if needed
+import { ThemeProvider } from './contexts/ThemeContext';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
@@ -13,7 +13,7 @@ import Services from './components/Services';
 function App() {
   return (
     <ThemeProvider>
-      <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-200">
+      <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-200 transition-colors duration-300">
         <Header />
         <main>
           <Hero />
